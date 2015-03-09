@@ -3,6 +3,9 @@
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
+ 
+ /* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -52,10 +55,10 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 900;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -132,9 +135,10 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+
 .intro-header {
   background-color: #808080;
-  background: no-repeat center center;
+  background: no-repeat center center fixed;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -169,7 +173,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -392,4 +396,10 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+
+.nav-tabs > li > a
+{
+	background: #333333;
+	color: white;
 }
