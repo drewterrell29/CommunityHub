@@ -63,7 +63,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #c6d550;
+    color: #f2f2f2;
 }
 
 .alignleft {
@@ -113,8 +113,8 @@ a.navbar-brand:hover {
 /* Header */
 
 #header {	
-	background-color: #444;
-	background: url(../img/carBG1.jpg) no-repeat center top;
+	background-color: #f9f9f9;
+	background: url(../img/house.jpg) no-repeat center top;
 	margin-top: -20px;
 	padding-top: 150px;
 	background-attachment: relative;
@@ -145,7 +145,7 @@ a.navbar-brand:hover {
 }
 
 h2.subtitle {
-	color: #242424;
+	color: #fdfdfd;
 	font-size: 20px;
 	font-weight: bold;
 }
