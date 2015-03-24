@@ -39,8 +39,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Sign up</a></li>
-			<li><a href="login.html">Sign in</a></li>
+			<li style = "display:inline"><input id="btn-login" class="btn-login" type="submit" /></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -72,8 +71,15 @@
 		</div>		
 	</div>	
 	</div>
+	
+	<!-- Auth0Lock script -->
+<script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
+
+<!-- Setting the right viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
